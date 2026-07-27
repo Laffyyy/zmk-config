@@ -72,10 +72,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LEFT_SHIFT  &kp LEFT      &kp DOWN      &kp RIGHT     &kp LBKT        &kp LEFT_ARROW  &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp MINUS
-&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS     &trans        &kp PLUS      &kp LPAR        &kp RPAR        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp SINGLE_QUOTE
-                                            &trans        &trans        &trans          &trans          &trans        &kp DOT
+           &kp NUMBER_1         &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp N7            &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0
+           &mt LEFT_SHIFT LWIN  &mt LEFT_ALT PAGE_UP  &mt LEFT_CONTROL PIPE  &kp RIGHT     &kp LBKT        &kp LEFT_ARROW  &kp DOWN          &kp UP_ARROW       &kp RIGHT     &kp MINUS
+&kp LCTRL  &kp K_BACK           &kp PAGE_DOWN         &kp CLCK               &kp PLUS      &kp LPAR        &kp HOME        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END       &kp LEFT_ALT  &kp SINGLE_QUOTE
+                                                      &trans                 &trans        &trans          &trans          &trans            &kp RIGHT_GUI
             >;
         };
 
